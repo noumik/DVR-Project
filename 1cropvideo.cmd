@@ -1,0 +1,1 @@
+ffmpeg -i in.mp4 -filter:v "crop=1798:120:119:885" -c:a copy out.mp4
